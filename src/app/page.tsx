@@ -19,7 +19,7 @@ export default function Home() {
           <img src="https://cdn.discordapp.com/attachments/1163937321763221678/1260132429469978624/bucciarati-gang-torture-dance_cropped.png?ex=668e3547&is=668ce3c7&hm=a8ffbb29c81891a0f17ae5d57aeaa9a78c98022e3959eb9b24b1e95befcf773e&" alt="Profile" className="rounded-full border-4 border-blue-500 w-40 h-40 mr-8" />
 
           <div>
-            <h2 className="text-2xl font-bold">I'm Alton Wu</h2>
+            <h2 className="text-2xl font-bold">I&apos;m Alton Wu</h2>
             <p className="flex items-center space-x-2">
               <i className="fas fa-briefcase icon"></i>
               <span>UCLA</span>
@@ -33,7 +33,7 @@ export default function Home() {
               Studying at the Henry Samueli School of Engineering and Applied Science, I am passionate about structural engineering, project management, and construction. Through various projects and coursework, I have developed skills in MATLAB, AutoCAD, and project planning.
             </p>
             <p className="mt-4">
-            In my free time, I enjoy participating in triathlons, playing board games, and joining in on zombie tag, gambling nights (with chips not worth money), and murder mystery events. I believe in the power of community and teamwork to achieve great things. Let's connect!
+            In my free time, I enjoy participating in triathlons, playing board games, and joining in on zombie tag, gambling nights (with chips not worth money), and murder mystery events. I believe in the power of community and teamwork to achieve great things. Let&apos;s connect!
             </p>
             <div className="flex space-x-4 mt-4">
               <i className="fab fa-twitter icon"></i>

@@ -17,15 +17,15 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-      <title>Portfolio</title>
-    <script src="https://unpkg.com/react/umd/react.development.js"></script>
-    <script src="https://unpkg.com/react-dom/umd/react-dom.development.js"></script>
-    <script src="https://unpkg.com/@babel/standalone/babel.js"></script>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
-          </head>
-          <body className={inter.className}>{children}</body>
-        </html>
-        );
+        <title>Portfolio</title>
+        <script src="https://unpkg.com/react/umd/react.development.js" defer />
+        <script src="https://unpkg.com/react-dom/umd/react-dom.development.js" defer />
+        <script src="https://unpkg.com/@babel/standalone/babel.js" defer />
+        <script src="https://cdn.tailwindcss.com" defer />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+      </head>
+      <body className={inter.className}>{children}</body>
+    </html>
+  );
 }
