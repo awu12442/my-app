@@ -17,17 +17,26 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  font-family: 'Roboto', sans-serif;
+  background-color: #ffffff;
+  color: #000000;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.icon {
+  color: #000000;
+}
+.link {
+  color: #0000ff;
+}
+.link:hover {
+  text-decoration: underline;
+}
+.section-title {
+  color: #555555;
 }
