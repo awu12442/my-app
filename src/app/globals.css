@@ -31,15 +31,7 @@ body {
 .icon {
   color: #000000;
 }
-.link {
-  color: #0000ff;
-}
-.link:hover {
-  text-decoration: underline;
-}
-.section-title {
-  color: #555555;
-}
+
 
 .header {
   display: flex;

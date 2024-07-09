@@ -12,7 +12,7 @@ export default function Home() {
           alt="Profile"
           width={160}
           height={160}
-          className="rounded-full border-4 border-blue-500 w-40 h-40 mr-8"
+          className="rounded-full border-2 border-black w-40 h-40 mr-8"
         />
 
         <div>
@@ -39,7 +39,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="mb-8">
+      <section className="mb-8  bg-gray-100 rounded-lg p-4">
         <h3 className="section-title text-xl font-bold mb-4">Courses Taken</h3>
         <ul>
           <li>Calculus of Several Variables (MATH 32B)</li>
@@ -51,11 +51,11 @@ export default function Home() {
           <li>Statics and Strength of Materials (MECH&AE 101)</li>
         </ul>
       </section>
-      <section className="mb-8">
+      <section className="mb-8 bg-gray-100 rounded-lg p-4">
         <h3 className="section-title text-xl font-bold mb-4">Projects</h3>
         <div className="flex mb-4">
           <Image
-            src="https://placehold.co/100x50"
+            src="https://cdn.discordapp.com/attachments/1163937321763221678/1260152584904118292/327027386_186748107336415_5259798470045548919_n.jpg?ex=668e480c&is=668cf68c&hm=391b38df1d110d1f7ffa8999c08325590cf1b6dd8fc1f39da0434f2dfe6506b9&"
             alt="UCLA Logo"
             width={100}
             height={50}
@@ -68,7 +68,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="mb-8">
+      <section className="mb-8 bg-gray-100 rounded-lg p-4">
         <h3 className="section-title text-xl font-bold mb-4">Awards and Honors</h3>
         <div className="flex mb-4">
           <div>
@@ -99,7 +99,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="mb-8">
+      <section className="mb-8 bg-gray-100 rounded-lg p-4">
         <h3 className="section-title text-xl font-bold mb-4">Activities</h3>
         <div className="flex mb-4">
           <div>
@@ -114,7 +114,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="mb-8">
+      <section className="mb-8 bg-gray-100 rounded-lg p-4">
         <h3 className="section-title text-xl font-bold mb-4">Skills</h3>
         <ul>
           <li>Structural Analysis</li>
@@ -132,7 +132,7 @@ export default function Home() {
         </ul>
       </section>
     </main>
-    <footer className="text-center mt-8">
+    <footer className="text-center my-4">
       <p>Thanks for Reading!</p>
     </footer></PageWrapper>
   )
